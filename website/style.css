@@ -1,0 +1,51 @@
+textarea{
+    font-size: 20px;
+    resize: none;
+}
+h1{
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 30px 20px;
+    font-size: 40px;
+}
+.container .entryHolder{
+    background-color: wheat;
+    padding: 30px 20px;
+}
+.form-control{
+    display: flex;
+    flex-direction: column;
+    padding-top: 10px;
+}
+
+.form-control label{
+    margin-bottom: 5px;
+}
+.form-control input{
+    padding: 10px;
+    font-size: 20px;
+}
+#generate{
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 2px solid black;
+    margin-top: 10px;
+}
+.entry h2{
+    background-color: cadetblue;
+    padding: 15px 10px;
+    margin: 0;
+}
+.entry{
+    margin-top: 10px;
+}
+.entryHolder .result{
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+label{
+    font-weight: bold;
+}
